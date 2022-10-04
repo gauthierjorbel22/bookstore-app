@@ -19,3 +19,4 @@ type UpdateBookInput struct {
 	Year string `json:"year" binding:"required`
 	Picture string `json:"picture" binding: "required"`
 }
+
