@@ -18,10 +18,6 @@ func main() {
 	r.PATCH("/books/:id", controllers.UpdateBook)
 	r.DELETE("/books/:id", controllers.DeleteBook)
 
-	// create user
-
-	r.POST("/users", controllers.CreateUser)
-
 	// Run server at Port 8080
 	r.Run(":8080")
 }
